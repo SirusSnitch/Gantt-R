@@ -1,31 +1,35 @@
-# Darker Sky Theme
+# Gantt Chart with R
 
-**Darker Sky Theme** is a custom dark theme for Visual Studio Code tailored to suit various coding needs. Created with personal preferences in mind, this theme offers a dark and elegant color scheme designed to enhance your coding experience.
+This repository contains R code to create a Gantt chart using the `ggplot2` package. The chart visualizes tasks and phases over time, providing a clear and concise project timeline.
 
-## Features
+![Editor Screenshot](Display.jpeg)
+*Example of Gantt Chart in action.*
 
-- **Dark Background:** Provides a soothing and visually comfortable environment for extended coding sessions.
-- **Customizable:** Tailor-made for personal preferences, but adaptable to different coding styles and workflows.
-- **Optimized for Readability:** Thoughtfully selected colors and contrasts ensure code readability and clarity.
-- **Versatile Usage:** Suitable for a wide range of programming languages and development tasks.
-- **Minimalist Design:** Focuses on essential elements while maintaining a visually appealing interface.
+## Prerequisites
 
-## Installation
+Make sure you have R installed on your system. You also need to install the following R packages:
 
-1. Open **Visual Studio Code**.
-2. Go to the **Extensions** view by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing `Ctrl+Shift+X`.
-3. Search for "Darker Sky Theme".
-4. Click **Install**.
-5. Once installed, go to **Preferences** > **Color Theme** and select "Darker Sky" from the list.
+- `tidyverse`
+- `ggplot2`
+You can install these packages by running:
 
-## Feedback
+```bash
+install.packages("tidyverse")
+install.packages("ggplot2")
 
-Your feedback matters! If you have any comments, suggestions, or feature requests, feel free to reach out or leave a review.
+```
 
-## Screenshots
+## Usage
 
-![Editor Screenshot](screenshots/Html.png)
-*Example of the Darker Sky Theme in action.*
+1. Clone this repository.
+2. Open the R script containing the above code.
+3. Run the script in your R environment.
 
+This will generate a Gantt chart visualizing the specified tasks and phases over time.
 
-Enhance your coding experience with the **Darker Sky Theme**!
+## Customization
+
+You can customize the tasks, start dates, end dates, and phases by modifying the `Gantt` data frame in the code. Adjust the aesthetics and themes in the `ggplot` function as needed to suit your preferences.
+
+## License
+This project is licensed under the MIT License.
